@@ -1,0 +1,66 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+
+
+/* .Button {
+    position: absolute;
+  }
+
+  .comment {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: white;
+    padding: 10px;
+  } */
+
+  body {
+    display: flex;
+    flex-direction: column;
+    margin: 80px 0 45px 0;
+    font-family: system-ui;
+    background-color: lightblue;
+  }
+  .welcome {
+    width: 200px;
+    height: auto;
+    position: relative;
+  }
+  .header {
+    background: rgb(231, 180, 26);
+    color: orangered;
+    font-family: monospace;
+    font-size: larger;
+    min-height: 80px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
+    padding: 10px;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    z-index: 1;
+  }
+  .gamecards {
+    background-color: beige;
+    margin: 50px ;
+    padding: 15px;
+    border: solid 5px darkslategray;
+    border-radius: 10px;
+    position: relative;
+
+  }
+  .heading {
+    font-family: fantasy;
+
+  }
+  .poster {
+    width: 60px;
+    position: absolute;
+    box-shadow: rgba(0, 0, 0, 0.24) 0 3px 18px;
+    top: 5%;
+    right: 10%;
+  }
